@@ -2,14 +2,23 @@
     background-color: aqua;
 } */
 .pd{
-    background-color: black;
+    background-color: rgb(100, 187, 234);
     border-radius: 30px;
-    color: white;
+    font-weight: bold;
+    color: black;
     float: right;
     margin: 5px;
+    padding: 10px;
+    size-adjust: 5px;
+    width: 80px;
+    text-align: center;
     
 }
-.navbar{
-    background-color: #ff0000;
-    
+a{
+    text-decoration: none;
+}
+
+span:hover,
+current span{
+    background-color: #e4f793;
 }

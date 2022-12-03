@@ -1,9 +1,10 @@
 body{
-    background-image: "/static/images/img.png";
     width: 100%;
+    background-color: rgb(242, 244, 247);
+    
 }
 .pd{
-    background-color: rgb(163, 208, 237);
+    background-color: rgb(56, 178, 240);
     border-radius: 30px;
     font-weight: bold;
     color: black;

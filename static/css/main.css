@@ -1,6 +1,7 @@
 body{
     width: 100%;
     background-color: rgb(242, 244, 247);
+    margin: 0;
     
 }
 .pd{
@@ -40,19 +41,20 @@ current span{
     font-size: larger;
     width: ;
 } */
-table{
+.homeTable{
     text-align: center;
     margin: 0 auto;
     border-collapse:collapse;
     padding:50px;
 }
-td{
+.homeTd{
 text-align: center;
 border-spacing: 15px;
 padding-left: 50px;
 /* width: 50px; */
 padding-bottom: 50px;
 }
+
 th{
     text-align: center;
     border-spacing: 15px;
@@ -61,7 +63,27 @@ th{
     padding-bottom: 50px;
     
 }
+
 img{
     width:200px;
     height: 200px;
+    padding-right: 20px;
+
+}
+
+.about{
+    text-align: center;
+}
+
+.info{
+    text-align: justify;
+    font-size: larger;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+
+}
+.aboutTable{
+    float: left;
 }

@@ -1,22 +1,24 @@
 <!DOCTYPE html>
   <head>
-    <title>index</title>
+    <title>Contact Us</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="{{ url_for('static',filename = 'css/main.css') }}">
-    <!-- <link rel="stylesheet" href={{ url_for('static', filename = 'images/img.png' ) }}"> -->
-  </head>
 
-  <body background="/static/images/img.png" >
+  </head>
+  <!-- <body background="/static/images/img.png" > -->
+
+  <body  >
 <nav class="navbar" >
     <div class="navbar">
-      <a href=""><span class="pd"> Contact us</span></a>
-      <a href=""><span class="pd"> About us</span></a>
-      <a href=""><span class="pd"> Home</span></a>
+      <a href="/contact"><span class="pd"> Contact us</span></a>
+      <a href="/about"><span class="pd"> About us</span></a>
+      <a href="/"><span class="pd"> Home</span></a>
       </div>
 </nav>
     <!-- <img src="/static/images/img.png">     -->
+
 
   </body>
 </html>

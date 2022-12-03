@@ -1,8 +1,9 @@
-/* body{
-    background-color: aqua;
-} */
+body{
+    background-image: "/static/images/img.png";
+    width: 100%;
+}
 .pd{
-    background-color: rgb(100, 187, 234);
+    background-color: rgb(163, 208, 237);
     border-radius: 30px;
     font-weight: bold;
     color: black;
@@ -14,11 +15,52 @@
     text-align: center;
     
 }
+
 a{
     text-decoration: none;
+    
 }
 
 span:hover,
 current span{
-    background-color: #e4f793;
+    background-color: #dcf082;
+}
+
+.navbar{
+    height: 50px;
+    background-color: transparent;
+    /* position: fixed;
+    o */
+    margin: 0px;
+    width: 100%;
+    
+}
+/* .mk{
+    font-size: larger;
+    width: ;
+} */
+table{
+    text-align: center;
+    margin: 0 auto;
+    border-collapse:collapse;
+    padding:50px;
+}
+td{
+text-align: center;
+border-spacing: 15px;
+padding-left: 50px;
+/* width: 50px; */
+padding-bottom: 50px;
+}
+th{
+    text-align: center;
+    border-spacing: 15px;
+    padding-left: 50px;
+    /* width: 50px; */
+    padding-bottom: 50px;
+    
+}
+img{
+    width:200px;
+    height: 200px;
 }

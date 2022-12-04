@@ -69,10 +69,13 @@ th{
 }
 
 img{
-    width:200px;
-    height: 200px;
+    width:350px;
+    height: 350px;
     padding-right: 20px;
 
+}
+.footA{
+    color: black;
 }
 
 .about{

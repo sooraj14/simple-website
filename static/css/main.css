@@ -23,9 +23,11 @@ a{
     
 }
 
-span:hover,
-current span{
-    background-color: #36383824;
+
+.pd:hover,
+current .pd{
+    background-color: #dcf082;
+
 }
 
 .navbar{
@@ -88,6 +90,25 @@ img{
 .aboutTable{
     float: left;
 }
+
+
+
+Footer{
+    height: 50px;
+    color:black;
+    /* padding-left: 25px; */
+}
+.svgElements{
+    padding-left: 25px;
+    /* padding-right: 50px; */
+    
+}
+.footerCopy{
+    
+    padding-left: 25px;
+
+}
+
 form{
     text-align: center;
     padding-top: 30px;
@@ -113,3 +134,4 @@ padding-top: 20px;
 
     
 }
+

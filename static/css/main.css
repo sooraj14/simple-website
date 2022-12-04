@@ -1,11 +1,11 @@
 body{
     width: 100%;
-    background-color: rgb(242, 244, 247);
+    background-color:rgba(57, 55, 55, 0.043);
     margin: 0;
     
 }
 .pd{
-    background-color: rgb(56, 178, 240);
+    background-color: rgb(145, 209, 240);
     border-radius: 30px;
     font-weight: bold;
     color: black;
@@ -23,9 +23,11 @@ a{
     
 }
 
+
 .pd:hover,
 current .pd{
     background-color: #dcf082;
+
 }
 
 .navbar{
@@ -47,6 +49,7 @@ current .pd{
     border-collapse:collapse;
     padding:50px;
 }
+
 .homeTd{
 text-align: center;
 border-spacing: 15px;
@@ -89,6 +92,7 @@ img{
 }
 
 
+
 Footer{
     height: 50px;
     color:black;
@@ -104,3 +108,30 @@ Footer{
     padding-left: 25px;
 
 }
+
+form{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-color:white;
+    border-radius: 50px;
+    width :250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit{
+padding-top: 20px;
+
+
+}
+.para{
+    margin-bottom: 5px;
+}
+.division{
+    padding-top: 40px;
+    align-items: center;
+
+    
+}
+

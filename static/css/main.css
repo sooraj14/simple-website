@@ -23,8 +23,8 @@ a{
     
 }
 
-span:hover,
-current span{
+.pd:hover,
+current .pd{
     background-color: #dcf082;
 }
 
@@ -86,4 +86,21 @@ img{
 }
 .aboutTable{
     float: left;
+}
+
+
+Footer{
+    height: 50px;
+    color:black;
+    /* padding-left: 25px; */
+}
+.svgElements{
+    padding-left: 25px;
+    /* padding-right: 50px; */
+    
+}
+.footerCopy{
+    
+    padding-left: 25px;
+
 }

@@ -20,15 +20,15 @@
     <!-- <img src="/static/images/img.png">     -->
 
 <div class="division">
-<form>
-  <p class="para">Enter the Name</p>
-  <input type="text"Name="sooraj">
-  <p class="para">Enter the Gender</p>
-  <input type="text"Gender="male">
-  <p class="para">Enter the Email id</p>
-  <input type="text"Email id="soorajchowkikharvi@gmail.com">
+<form action="/contact" method="POST">
+  <p for='name' class="para">Enter the Name</p>
+  <input name="name" id="name" type="text">
+  <p for="gender" class="para">Enter the Gender</p>
+  <input id="gender" name="gender" type="text">
+  <p for="email" class="para">Enter the Email id</p>
+  <input id="email" name="email" type="email">
   <p class="para">Enter the Password</p>
-  <input type="number"Password="123456">
+  <input id="password" name="password" type="password">
 <div class="submit">
   <input type="submit">
 </div>
